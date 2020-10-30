@@ -1,7 +1,4 @@
-Michael Loftus <michaelloftus3@yahoo.com>
-To:Michael Loftus
-Fri, Oct 30 at 12:16 PM
-
+#! /usr/bin/ipython3
 import graphics
 from time import sleep
 import random
