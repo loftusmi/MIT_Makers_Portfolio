@@ -14,7 +14,7 @@ WINDIMENY = 440
 CIRCDIAM = 20
 msgtxt = "You Lose!"
 
-def main_game():                                                          # Main method 
+def main_game():                                                          # define main method 
     keepplaying = True
     (win, circ, message, sensor) = initialize()
     keepplaying = playquery(win)
@@ -47,7 +47,7 @@ def createobjects(WINDIMENX, WINDIMENY, CIRCDIAM):               #Creates graphi
 
 
 def setdefaults(win, circ, message):                       #Randomizes circle diameter, border color, and inner color
-    message.setText("DO yU plAy? now\nYes  No")            #I now recognize that there are many better ways to code this section; but this is what I came up with starting out   
+    message.setText("DO yU plAy? now\nYes  No")            #I now recognize that there are better ways to code this section, but this is what I came up with as I was first learning to code   
     winheight = win.getHeight()
     endctr = circ.getCenter()
     dy = (winheight / 2) - endctr.y
