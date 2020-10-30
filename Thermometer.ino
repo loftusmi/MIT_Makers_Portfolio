@@ -82,7 +82,7 @@ void loop()    //main program
     //Serial.print(c); Serial.println(" ");
     Serial.print("Voltage: "); Serial.print(measuredvoltage); Serial.print("  ");  Serial.print("Temperature in Degrees Celsius: "); Serial.println(roundedtemperature);
     
-    //LED control
+    //LED control; if temp is low turn on red, if temp is medium, turn on green, if temp is high, turn on blue; red is default
     
     if(roundedtemperature <= lowtemp)
     {
